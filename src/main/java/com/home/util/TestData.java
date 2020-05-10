@@ -46,6 +46,7 @@ public class TestData {
 		return TestDataMap;
 	}
 	
+	//Below Method is for Test Purpose
 	public static void main(String[] args) {
 		TestData td = new TestData();
 		String FileName = "G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\CORE_API_TestData.xlsx";
