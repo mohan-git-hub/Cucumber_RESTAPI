@@ -27,8 +27,8 @@ import cucumber.api.junit.Cucumber;
 		,plugin= {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/RESTAPI_ExtentReports.html"}
 		)
 
+
 public class APIRunnerClass {
-	APIBase AP = new APIBase();
 	@AfterClass
 	public static void writeExtentReport() {
 		Reporter.loadXMLConfig(new File("G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\src\\main\\java\\com\\home\\config\\extent-config.xml"));
