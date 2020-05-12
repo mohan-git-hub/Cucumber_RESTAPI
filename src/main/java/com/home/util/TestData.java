@@ -55,9 +55,10 @@ public class TestData {
 		System.out.println(TestDataMap.keySet());
 		System.out.println(TestDataMap.entrySet());
 
-		JSONObject reqparam = new JSONObject();		
-		Set<String> keyset = TestDataMap.keySet();
+		JSONObject reqparam = new JSONObject();
 		
+		Set<String> keyset = TestDataMap.keySet();
+
 		Iterator it1 = keyset.iterator();
 		
 		while(it1.hasNext()) {

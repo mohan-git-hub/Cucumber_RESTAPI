@@ -30,6 +30,17 @@ public class APIBase {
 		String FileName;
 		return FileName = props.getProperty("TestDataFile");
 	}
+	
+	public String getReportConfigPath() {
+		String ReportPath = props.getProperty("reportConfigPath");
+		if(ReportPath!=null) {
+			return ReportPath;
+		}
+		else
+		{
+			throw new RuntimeException("Report Path not specified in the Config File");
+		}
+	}
 
 	
 }
