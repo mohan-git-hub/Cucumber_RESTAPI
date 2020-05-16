@@ -13,7 +13,7 @@ public class APIBase {
 	
 	public APIBase() {
 		try {
-		FileInputStream FIS = new FileInputStream("G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\src\\main\\java\\com\\home\\config\\API.properties");
+		FileInputStream FIS = new FileInputStream("G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\src\\test\\java\\com\\home\\config\\API.properties");
 		props = new Properties();
 		props.load(FIS);
 		}

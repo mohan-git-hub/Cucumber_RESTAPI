@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("G:/Mohan/Selenium_Software/WorkSpace/Cucumber.REST_API/src/main/java/com/home/features/CreateUser.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("G:/Mohan/Selenium_Software/WorkSpace/Cucumber.REST_API/src/test/java/com/home/features/CreateUser.feature");
 formatter.feature({
   "line": 1,
   "name": "Create User Test Cases",
@@ -22,7 +22,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 379537300,
+  "duration": 121325200,
   "status": "passed"
 });
 formatter.scenario({
@@ -94,14 +94,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 3720200,
+  "duration": 7989600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 1424700,
+  "duration": 1559300,
   "status": "passed"
 });
 formatter.match({
@@ -118,23 +118,22 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 1413522400,
+  "duration": 842501500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 6067639000,
+  "duration": 4571617400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 19303200,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c302\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat com.home.APIDefinitions.CreateUserTestClass.verifyResponseCode(CreateUserTestClass.java:76)\r\n\tat ✽.Then Verify whether the response is success(G:/Mohan/Selenium_Software/WorkSpace/Cucumber.REST_API/src/main/java/com/home/features/CreateUser.feature:14)\r\n",
-  "status": "failed"
+  "duration": 2980800,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -152,7 +151,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 456300,
+  "duration": 514400,
   "status": "passed"
 });
 formatter.scenario({
@@ -220,14 +219,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 114300,
+  "duration": 124600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 154800,
+  "duration": 151600,
   "status": "passed"
 });
 formatter.match({
@@ -244,23 +243,22 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 75004000,
+  "duration": 93933500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 556427000,
+  "duration": 1185791200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 245100,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c302\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat com.home.APIDefinitions.CreateUserTestClass.verifyResponseCode(CreateUserTestClass.java:76)\r\n\tat ✽.Then Verify whether the response is success(G:/Mohan/Selenium_Software/WorkSpace/Cucumber.REST_API/src/main/java/com/home/features/CreateUser.feature:24)\r\n",
-  "status": "failed"
+  "duration": 64100,
+  "status": "passed"
 });
 formatter.background({
   "line": 3,
@@ -278,7 +276,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 402200,
+  "duration": 405700,
   "status": "passed"
 });
 formatter.scenario({
@@ -346,14 +344,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 76500,
+  "duration": 85000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 102400,
+  "duration": 147900,
   "status": "passed"
 });
 formatter.match({
@@ -370,21 +368,21 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 56620600,
+  "duration": 81226000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 594454800,
+  "duration": 1081018600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyDuplicateUserValidtion()"
 });
 formatter.result({
-  "duration": 849945900,
+  "duration": 577983800,
   "status": "passed"
 });
 });
