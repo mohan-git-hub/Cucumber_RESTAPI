@@ -40,7 +40,7 @@ public void setPostRequestEndPoint(String CreateUserEndPoint) {
 
 @And("^Set Headers for the request$")
 public void setHeaders(DataTable data) {
-	List<Map<String,String>> HeaderMap = data.asMaps(String.class, String.class);
+	List<Map<String,String>> HeaderMap =  data.asMaps(String.class, String.class);
 	ContentType = HeaderMap.get(0).get("ContentType");
 	AuthKey = HeaderMap.get(0).get("AuthKey");	
 }

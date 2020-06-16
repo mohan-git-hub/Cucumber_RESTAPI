@@ -22,7 +22,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 121325200,
+  "duration": 129355800,
   "status": "passed"
 });
 formatter.scenario({
@@ -94,14 +94,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 7989600,
+  "duration": 2912200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 1559300,
+  "duration": 1521500,
   "status": "passed"
 });
 formatter.match({
@@ -118,21 +118,21 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 842501500,
+  "duration": 931614300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 4571617400,
+  "duration": 12131515500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 2980800,
+  "duration": 2973800,
   "status": "passed"
 });
 formatter.background({
@@ -151,7 +151,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 514400,
+  "duration": 447200,
   "status": "passed"
 });
 formatter.scenario({
@@ -219,14 +219,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 124600,
+  "duration": 83300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 151600,
+  "duration": 73700,
   "status": "passed"
 });
 formatter.match({
@@ -243,21 +243,21 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 93933500,
+  "duration": 80633600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 1185791200,
+  "duration": 1727542900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 64100,
+  "duration": 64600,
   "status": "passed"
 });
 formatter.background({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 405700,
+  "duration": 428600,
   "status": "passed"
 });
 formatter.scenario({
@@ -344,14 +344,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 85000,
+  "duration": 72600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 147900,
+  "duration": 100500,
   "status": "passed"
 });
 formatter.match({
@@ -368,21 +368,21 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 81226000,
+  "duration": 67220200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 1081018600,
+  "duration": 1119679300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyDuplicateUserValidtion()"
 });
 formatter.result({
-  "duration": 577983800,
+  "duration": 624999500,
   "status": "passed"
 });
 });
