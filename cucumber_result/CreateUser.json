@@ -11,7 +11,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 190500600,
+              "status": "passed"
             },
             "line": 4,
             "name": "Set Base URL of the API",
@@ -32,7 +33,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4217900,
+              "status": "passed"
             },
             "line": 8,
             "name": "Set Post Request EndPoint \"users\"",
@@ -49,7 +51,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1696900,
+              "status": "passed"
             },
             "line": 9,
             "name": "Set Headers for the request",
@@ -76,7 +79,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 917950400,
+              "status": "passed"
             },
             "line": 12,
             "name": "Form Post Request Parameters for \"TC006\" from Excel Sheet \"Users\"",
@@ -97,7 +101,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3848939300,
+              "status": "passed"
             },
             "line": 13,
             "name": "Send the Post Request and get Response",
@@ -108,7 +113,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3363500,
+              "status": "passed"
             },
             "line": 14,
             "name": "Verify whether the response is success",
@@ -138,7 +144,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 922400,
+              "status": "passed"
             },
             "line": 4,
             "name": "Set Base URL of the API",
@@ -159,7 +166,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 110000,
+              "status": "passed"
             },
             "line": 18,
             "name": "Set Post Request EndPoint \"users\"",
@@ -176,7 +184,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 109100,
+              "status": "passed"
             },
             "line": 19,
             "name": "Set Headers for the request",
@@ -203,7 +212,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 70697200,
+              "status": "passed"
             },
             "line": 22,
             "name": "Form Post Request Parameters for \"TC007\" from Excel Sheet \"Users\"",
@@ -224,7 +234,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 700663700,
+              "status": "passed"
             },
             "line": 23,
             "name": "Send the Post Request and get Response",
@@ -235,7 +246,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 49200,
+              "status": "passed"
             },
             "line": 24,
             "name": "Verify whether the response is success",
@@ -261,7 +273,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 596800,
+              "status": "passed"
             },
             "line": 4,
             "name": "Set Base URL of the API",
@@ -282,7 +295,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 76100,
+              "status": "passed"
             },
             "line": 28,
             "name": "Set Post Request EndPoint \"users\"",
@@ -299,7 +313,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 80300,
+              "status": "passed"
             },
             "line": 29,
             "name": "Set Headers for the request",
@@ -326,7 +341,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 48669300,
+              "status": "passed"
             },
             "line": 32,
             "name": "Form Post Request Parameters for \"TC008\" from Excel Sheet \"Users\"",
@@ -347,7 +363,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 683912700,
+              "status": "passed"
             },
             "line": 33,
             "name": "Send the Post Request and get Response",
@@ -358,7 +375,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 615814100,
+              "status": "passed"
             },
             "line": 34,
             "name": "Verify response contains Duplicate User Validation",
@@ -384,7 +402,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1009400,
+              "status": "passed"
             },
             "line": 4,
             "name": "Set Base URL of the API",
@@ -405,21 +424,31 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1017600,
+              "status": "passed"
             },
             "line": 38,
             "name": "Set Get request EndPoint \"users\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 26
+                }
+              ],
+              "location": "GetUsersClass.setGetRequestEndPoint(String)"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 119300,
+              "status": "passed"
             },
             "line": 39,
-            "name": "Set Headers for the request",
+            "name": "Set Headers for Get request",
             "match": {
-              "location": "CreateUserTestClass.setHeaders(DataTable)"
+              "location": "GetUsersClass.setHeaders(DataTable)"
             },
             "rows": [
               {
@@ -441,7 +470,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 802028300,
+              "status": "passed"
             },
             "line": 42,
             "name": "Send the Users GET request and get Response",
@@ -452,7 +482,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 185280900,
+              "status": "passed"
             },
             "line": 43,
             "name": "Verify the count of Retrieved Users",

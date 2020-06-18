@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 		(
 		features = "G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\src\\test\\java\\com\\home\\features\\CreateUser.feature"
 		,glue= {"com.home.APIDefinitions"}
-		,dryRun = true
+		,dryRun = false
 		,monochrome = true
 		,strict = true
 		,format = {"pretty","html:test-output","json:cucumber_result/CreateUser.json"}

@@ -21,7 +21,8 @@ import org.junit.Assert;
 
 public class CreateUserTestClass extends APIBase {
 	
-	public String EndPoint, BaseURI, ContentType, AuthKey;
+	public String EndPoint;
+	public String BaseURI, ContentType, AuthKey;
 	APISupportMethods AO = new APISupportMethods();
 	JSONObject reqparams, ResponseJSON;
 	RequestSpecification request;

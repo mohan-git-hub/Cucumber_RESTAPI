@@ -36,7 +36,7 @@ Then Verify response contains Duplicate User Validation
 @Smoke
 Scenario: Verify all the users are retrieved in GET request
 Given Set Get request EndPoint "users"
-And Set Headers for the request
+And Set Headers for Get request
 | ContentType      | AuthKey  |
 | application/json | Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE |
 When Send the Users GET request and get Response
