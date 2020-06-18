@@ -31,7 +31,4 @@ public class APISupportMethods extends APIBase {
 		}
 		return reqParams;
 	}
-	
-	
-
 }

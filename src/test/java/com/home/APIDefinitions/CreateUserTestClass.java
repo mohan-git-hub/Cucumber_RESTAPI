@@ -21,12 +21,16 @@ import org.junit.Assert;
 
 public class CreateUserTestClass extends APIBase {
 	
-	String EndPoint, BaseURI, ContentType, AuthKey;
+	public String EndPoint, BaseURI, ContentType, AuthKey;
 	APISupportMethods AO = new APISupportMethods();
 	JSONObject reqparams, ResponseJSON;
 	RequestSpecification request;
 	Response response;
 	String ResponseText;
+	
+	public CreateUserTestClass() {
+		System.out.println("Executing User Test Class");
+	}
 	
 @Given("^Set Base URL of the API$")
 public void setBaseAPIURI() {
@@ -73,7 +77,7 @@ public void SendPostRequest() {
 }
 @Then("^Verify whether the response is success$")
 public void verifyResponseCode() {
-	Assert.assertEquals(200, response.getStatusCode());;
+	Assert.assertEquals(200, response.getStatusCode());
 }
 
 @Then("^Verify response contains Duplicate User Validation$")

@@ -22,8 +22,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 129355800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 7,
@@ -94,15 +93,13 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 2912200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 1521500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -118,22 +115,19 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 931614300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 12131515500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 2973800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "line": 3,
@@ -151,8 +145,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 447200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 17,
@@ -219,15 +212,13 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 83300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 73700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -243,22 +234,19 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 80633600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 1727542900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 64600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.background({
   "line": 3,
@@ -276,8 +264,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 428600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 27,
@@ -344,15 +331,13 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 72600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 100500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -368,21 +353,108 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 67220200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 1119679300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyDuplicateUserValidtion()"
 });
 formatter.result({
-  "duration": 624999500,
-  "status": "passed"
+  "status": "skipped"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Set Base URL of the API",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "CreateUserTestClass.setBaseAPIURI()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.scenario({
+  "line": 37,
+  "name": "Verify all the users are retrieved in GET request",
+  "description": "",
+  "id": "create-user-test-cases;verify-all-the-users-are-retrieved-in-get-request",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 36,
+      "name": "@Smoke"
+    }
+  ]
+});
+formatter.step({
+  "line": 38,
+  "name": "Set Get request EndPoint \"users\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 39,
+  "name": "Set Headers for the request",
+  "rows": [
+    {
+      "cells": [
+        "ContentType",
+        "AuthKey"
+      ],
+      "line": 40
+    },
+    {
+      "cells": [
+        "application/json",
+        "Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE"
+      ],
+      "line": 41
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "Send the Users GET request and get Response",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 43,
+  "name": "Verify the count of Retrieved Users",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({
+  "location": "CreateUserTestClass.setHeaders(DataTable)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "GetUsersClass.SendGetRequest()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "GetUsersClass.VerifyUserCount()"
+});
+formatter.result({
+  "status": "skipped"
 });
 });
