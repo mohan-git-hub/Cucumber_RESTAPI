@@ -1,43 +1,69 @@
 package com.home.APIDefinitions;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
+
+import java.util.List;
+import java.util.Map;
 
 import com.home.apimethods.APISupportMethods;
+import com.home.util.APIBase;
 
+import cucumber.api.DataTable;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
-import static org.hamcrest.MatcherAssert.assertThat; 
-import static org.hamcrest.Matchers.*;
 
-public class GetUsersClass {
+public class GetUsersClass extends APIBase {
 
-	String EndPoint, ResponseText;
+	String EndPoint, ResponseText, BaseURI, ContentType, AuthKey;
 	RequestSpecification request;
 	Response response;
+	ResponseBody body;
 	APISupportMethods AO = new APISupportMethods();
 	CreateUserTestClass CU = new CreateUserTestClass();
 	
-	@Given("^Set Get request EndPoint \"([^\"])\"$")
+	@Given("^Set Base URL for Get User Request$")
+	public void setBaseAPIURI() {
+		BaseURI = setBaseAPI();
+	}
+	
+	@And("^Set Headers for Get request$")
+	public void setHeaders(DataTable data) {
+		List<Map<String,String>> HeaderMap =  data.asMaps(String.class, String.class);
+		ContentType = HeaderMap.get(0).get("ContentType");
+		AuthKey = HeaderMap.get(0).get("AuthKey");	
+	}
+	
+	@Given("^Set Get request EndPoint \"([^\"]*)\"$")
 	public void setGetRequestEndPoint(String InputEndPoint) {
 		EndPoint = AO.SetEndPoint(InputEndPoint);
 	}
 	
 	@When("^Send the Users GET request and get Response$")
 	public void SendGetRequest() {
-		RestAssured.baseURI = CU.BaseURI;
+		RestAssured.baseURI = BaseURI;
 		
-		response = given().when().header("Content-Type",CU.ContentType)
-				.header("Authorization",CU.AuthKey).get(EndPoint);
-		String ResponseText = response.toString();
-		System.out.println(ResponseText);
+		response = given().when().header("Content-Type",ContentType)
+				.header("Authorization",AuthKey).get(EndPoint);
+		body = response.getBody();
+		System.out.println("Response Text is "+ body.asString());
+	}
+	
+	@Then("^Verify the Response Code for Get Request$")
+	public void VerifyUserResponseCode() {
+		response.then().assertThat().body("_meta.code",equalTo(200));
 	}
 	
 	@Then("^Verify the count of Retrieved Users$")
 	public void VerifyUserCount() {
-		response.then().assertThat().body("_meta.code",equalTo("200"));
+		System.out.println("Response Text II is "+ body.asString());
+		response.then().assertThat().body("result.id",hasSize(20));
+		
 	}
 }

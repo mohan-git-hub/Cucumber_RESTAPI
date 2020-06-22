@@ -5,7 +5,7 @@ import java.io.File;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
-import com.home.util.APIBase;
+//import com.home.util.APIBase;
 import com.vimalselvam.cucumber.listener.Reporter;
 
 import cucumber.api.CucumberOptions;
@@ -16,9 +16,9 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 		(
-		features = "G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\src\\test\\java\\com\\home\\features\\CreateUser.feature"
+		features = "G:\\Mohan\\Selenium_Software\\WorkSpace\\Cucumber.REST_API\\src\\test\\java\\com\\home\\features"
 		,glue= {"com.home.APIDefinitions"}
-		,dryRun = true
+		,dryRun = false
 		,monochrome = true
 		,strict = true
 		,format = {"pretty","html:test-output","json:cucumber_result/CreateUser.json"}
@@ -37,5 +37,4 @@ public class APIRunnerTest {
 		Reporter.setSystemInfo("Environment","Home");
 		Reporter.setTestRunnerOutput("Cucumber REST API Execution Report");
 	}
-	
 }

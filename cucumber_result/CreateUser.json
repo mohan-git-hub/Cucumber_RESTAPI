@@ -11,10 +11,11 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 195028900,
+              "status": "passed"
             },
             "line": 4,
-            "name": "Set Base URL of the API",
+            "name": "Set Base URL for Post User Request",
             "match": {
               "location": "CreateUserTestClass.setBaseAPIURI()"
             },
@@ -23,16 +24,75 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 263300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 101900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBeforeScenario()"
+            }
+          }
+        ],
         "line": 7,
         "name": "Verify whether User can create with all Parameters",
         "description": "",
         "id": "create-user-test-cases;verify-whether-user-can-create-with-all-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 607300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 131000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario1()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 7313500,
+              "status": "passed"
             },
             "line": 8,
             "name": "Set Post Request EndPoint \"users\"",
@@ -49,10 +109,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1476000,
+              "status": "passed"
             },
             "line": 9,
-            "name": "Set Headers for the request",
+            "name": "Set Headers for post request",
             "match": {
               "location": "CreateUserTestClass.setHeaders(DataTable)"
             },
@@ -76,7 +137,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 954845100,
+              "status": "passed"
             },
             "line": 12,
             "name": "Form Post Request Parameters for \"TC006\" from Excel Sheet \"Users\"",
@@ -97,7 +159,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4071442500,
+              "status": "passed"
             },
             "line": 13,
             "name": "Send the Post Request and get Response",
@@ -108,7 +171,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6273000,
+              "status": "passed"
             },
             "line": 14,
             "name": "Verify whether the response is success",
@@ -138,10 +202,11 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 506400,
+              "status": "passed"
             },
             "line": 4,
-            "name": "Set Base URL of the API",
+            "name": "Set Base URL for Post User Request",
             "match": {
               "location": "CreateUserTestClass.setBaseAPIURI()"
             },
@@ -150,16 +215,75 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 148100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 85300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBeforeScenario()"
+            }
+          }
+        ],
         "line": 17,
         "name": "Verify whether User can create with Mandatory Parameters",
         "description": "",
         "id": "create-user-test-cases;verify-whether-user-can-create-with-mandatory-parameters",
+        "after": [
+          {
+            "result": {
+              "duration": 52900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario1()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 89400,
+              "status": "passed"
             },
             "line": 18,
             "name": "Set Post Request EndPoint \"users\"",
@@ -176,10 +300,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 71800,
+              "status": "passed"
             },
             "line": 19,
-            "name": "Set Headers for the request",
+            "name": "Set Headers for post request",
             "match": {
               "location": "CreateUserTestClass.setHeaders(DataTable)"
             },
@@ -203,7 +328,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 72232300,
+              "status": "passed"
             },
             "line": 22,
             "name": "Form Post Request Parameters for \"TC007\" from Excel Sheet \"Users\"",
@@ -224,7 +350,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 716537900,
+              "status": "passed"
             },
             "line": 23,
             "name": "Send the Post Request and get Response",
@@ -235,7 +362,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 47800,
+              "status": "passed"
             },
             "line": 24,
             "name": "Verify whether the response is success",
@@ -261,10 +389,11 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 313400,
+              "status": "passed"
             },
             "line": 4,
-            "name": "Set Base URL of the API",
+            "name": "Set Base URL for Post User Request",
             "match": {
               "location": "CreateUserTestClass.setBaseAPIURI()"
             },
@@ -273,16 +402,75 @@
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 77100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 57500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBeforeScenario()"
+            }
+          }
+        ],
         "line": 27,
         "name": "Verify Validation Message on Duplicate User Creation",
         "description": "",
         "id": "create-user-test-cases;verify-validation-message-on-duplicate-user-creation",
+        "after": [
+          {
+            "result": {
+              "duration": 786200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 185900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 201500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario1()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 51800,
+              "status": "passed"
             },
             "line": 28,
             "name": "Set Post Request EndPoint \"users\"",
@@ -299,10 +487,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 73800,
+              "status": "passed"
             },
             "line": 29,
-            "name": "Set Headers for the request",
+            "name": "Set Headers for post request",
             "match": {
               "location": "CreateUserTestClass.setHeaders(DataTable)"
             },
@@ -326,7 +515,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 39844400,
+              "status": "passed"
             },
             "line": 32,
             "name": "Form Post Request Parameters for \"TC008\" from Excel Sheet \"Users\"",
@@ -347,7 +537,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 671290000,
+              "status": "passed"
             },
             "line": 33,
             "name": "Send the Post Request and get Response",
@@ -358,7 +549,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 675246500,
+              "status": "passed"
             },
             "line": 34,
             "name": "Verify response contains Duplicate User Validation",
@@ -374,6 +566,181 @@
             "name": "@End2End"
           }
         ]
+      }
+    ],
+    "name": "Create User Test Cases",
+    "description": "",
+    "id": "create-user-test-cases",
+    "keyword": "Feature",
+    "uri": "CreateUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 870600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Set Base URL for Get User Request",
+            "match": {
+              "location": "GetUsersClass.setBaseAPIURI()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 544000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 200700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBeforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify all the users are retrieved in GET request",
+        "description": "",
+        "id": "verify-get-user-request-test-scenarios;verify-all-the-users-are-retrieved-in-get-request",
+        "after": [
+          {
+            "result": {
+              "duration": 79300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Set Get request EndPoint \"users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 26
+                }
+              ],
+              "location": "GetUsersClass.setGetRequestEndPoint(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Set Headers for Get request",
+            "match": {
+              "location": "GetUsersClass.setHeaders(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ContentType",
+                  "AuthKey"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "application/json",
+                  "Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE"
+                ],
+                "line": 11
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 756540300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Send the Users GET request and get Response",
+            "match": {
+              "location": "GetUsersClass.SendGetRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 339445000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify the Response Code for Get Request",
+            "match": {
+              "location": "GetUsersClass.VerifyUserResponseCode()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Smoke"
+          }
+        ]
       },
       {
         "line": 3,
@@ -384,42 +751,111 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 473800,
+              "status": "passed"
             },
             "line": 4,
-            "name": "Set Base URL of the API",
+            "name": "Set Base URL for Get User Request",
             "match": {
-              "location": "CreateUserTestClass.setBaseAPIURI()"
+              "location": "GetUsersClass.setBaseAPIURI()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "line": 37,
-        "name": "Verify all the users are retrieved in GET request",
+        "before": [
+          {
+            "result": {
+              "duration": 290400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 199500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBefore2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 193100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunBeforeScenario()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify the count of Users Fetched",
         "description": "",
-        "id": "create-user-test-cases;verify-all-the-users-are-retrieved-in-get-request",
+        "id": "verify-get-user-request-test-scenarios;verify-the-count-of-users-fetched",
+        "after": [
+          {
+            "result": {
+              "duration": 363900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 178000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PreConditions.RunAfterScenario1()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 88600,
+              "status": "passed"
             },
-            "line": 38,
+            "line": 17,
             "name": "Set Get request EndPoint \"users\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "users",
+                  "offset": 26
+                }
+              ],
+              "location": "GetUsersClass.setGetRequestEndPoint(String)"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 111500,
+              "status": "passed"
             },
-            "line": 39,
-            "name": "Set Headers for the request",
+            "line": 18,
+            "name": "Set Headers for Get request",
             "match": {
-              "location": "CreateUserTestClass.setHeaders(DataTable)"
+              "location": "GetUsersClass.setHeaders(DataTable)"
             },
             "rows": [
               {
@@ -427,23 +863,24 @@
                   "ContentType",
                   "AuthKey"
                 ],
-                "line": 40
+                "line": 19
               },
               {
                 "cells": [
                   "application/json",
                   "Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE"
                 ],
-                "line": 41
+                "line": 20
               }
             ],
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 662993400,
+              "status": "passed"
             },
-            "line": 42,
+            "line": 21,
             "name": "Send the Users GET request and get Response",
             "match": {
               "location": "GetUsersClass.SendGetRequest()"
@@ -452,9 +889,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 69060900,
+              "status": "passed"
             },
-            "line": 43,
+            "line": 22,
             "name": "Verify the count of Retrieved Users",
             "match": {
               "location": "GetUsersClass.VerifyUserCount()"
@@ -464,16 +902,16 @@
         ],
         "tags": [
           {
-            "line": 36,
-            "name": "@Smoke"
+            "line": 15,
+            "name": "@Regression"
           }
         ]
       }
     ],
-    "name": "Create User Test Cases",
+    "name": "Verify Get User Request Test Scenarios",
     "description": "",
-    "id": "create-user-test-cases",
+    "id": "verify-get-user-request-test-scenarios",
     "keyword": "Feature",
-    "uri": "G:/Mohan/Selenium_Software/WorkSpace/Cucumber.REST_API/src/test/java/com/home/features/CreateUser.feature"
+    "uri": "GetUsers.feature"
   }
 ]

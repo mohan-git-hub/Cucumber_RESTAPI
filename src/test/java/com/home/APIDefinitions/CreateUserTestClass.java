@@ -27,12 +27,8 @@ public class CreateUserTestClass extends APIBase {
 	RequestSpecification request;
 	Response response;
 	String ResponseText;
-	
-	public CreateUserTestClass() {
-		System.out.println("Executing User Test Class");
-	}
-	
-@Given("^Set Base URL of the API$")
+		
+@Given("^Set Base URL for Post User Request$")
 public void setBaseAPIURI() {
 	BaseURI = setBaseAPI();
 }
@@ -42,7 +38,7 @@ public void setPostRequestEndPoint(String CreateUserEndPoint) {
 	EndPoint = AO.SetEndPoint(CreateUserEndPoint);
 }
 
-@And("^Set Headers for the request$")
+@And("^Set Headers for post request$")
 public void setHeaders(DataTable data) {
 	List<Map<String,String>> HeaderMap =  data.asMaps(String.class, String.class);
 	ContentType = HeaderMap.get(0).get("ContentType");
