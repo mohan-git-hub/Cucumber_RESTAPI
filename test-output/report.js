@@ -7,15 +7,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 263300,
+  "duration": 318800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 101900,
+  "duration": 434800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 142700,
+  "duration": 347800,
   "status": "passed"
 });
 formatter.background({
@@ -34,7 +34,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 195028900,
+  "duration": 175064900,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,14 +106,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 7313500,
+  "duration": 3018400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 1476000,
+  "duration": 1698300,
   "status": "passed"
 });
 formatter.match({
@@ -130,45 +130,45 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 954845100,
+  "duration": 921265600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 4071442500,
+  "duration": 10397063800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 6273000,
+  "duration": 3464700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 607300,
+  "duration": 120700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 163600,
+  "duration": 100900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 131000,
+  "duration": 113500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 148100,
+  "duration": 386700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 85300,
+  "duration": 112800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 67900,
+  "duration": 311000,
   "status": "passed"
 });
 formatter.background({
@@ -187,7 +187,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 506400,
+  "duration": 720400,
   "status": "passed"
 });
 formatter.scenario({
@@ -255,14 +255,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 89400,
+  "duration": 157100,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 71800,
+  "duration": 311500,
   "status": "passed"
 });
 formatter.match({
@@ -279,45 +279,45 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 72232300,
+  "duration": 73527300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 716537900,
+  "duration": 714042600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 47800,
+  "duration": 130100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 52900,
+  "duration": 183200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 55200,
+  "duration": 156200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41000,
+  "duration": 190800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 77100,
+  "duration": 391500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 57500,
+  "duration": 205500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 55200,
+  "duration": 154400,
   "status": "passed"
 });
 formatter.background({
@@ -336,7 +336,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 313400,
+  "duration": 984700,
   "status": "passed"
 });
 formatter.scenario({
@@ -404,14 +404,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 51800,
+  "duration": 136200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 73800,
+  "duration": 151000,
   "status": "passed"
 });
 formatter.match({
@@ -428,33 +428,33 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 39844400,
+  "duration": 63797000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 671290000,
+  "duration": 617081000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyDuplicateUserValidtion()"
 });
 formatter.result({
-  "duration": 675246500,
+  "duration": 838950700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 786200,
+  "duration": 84000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 185900,
+  "duration": 69400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 201500,
+  "duration": 68500,
   "status": "passed"
 });
 formatter.uri("GetUsers.feature");
@@ -466,15 +466,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 544000,
+  "duration": 278500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 200700,
+  "duration": 166400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 199500,
+  "duration": 50300,
   "status": "passed"
 });
 formatter.background({
@@ -489,34 +489,13 @@ formatter.step({
   "name": "Set Base URL for Get User Request",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "GetUsersClass.setBaseAPIURI()"
-});
-formatter.result({
-  "duration": 870600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 7,
-  "name": "Verify all the users are retrieved in GET request",
-  "description": "",
-  "id": "verify-get-user-request-test-scenarios;verify-all-the-users-are-retrieved-in-get-request",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@Smoke"
-    }
-  ]
-});
 formatter.step({
-  "line": 8,
+  "line": 5,
   "name": "Set Get request EndPoint \"users\"",
-  "keyword": "Given "
+  "keyword": "And "
 });
 formatter.step({
-  "line": 9,
+  "line": 6,
   "name": "Set Headers for Get request",
   "rows": [
     {
@@ -524,27 +503,29 @@ formatter.step({
         "ContentType",
         "AuthKey"
       ],
-      "line": 10
+      "line": 7
     },
     {
       "cells": [
         "application/json",
         "Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE"
       ],
-      "line": 11
+      "line": 8
     }
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 9,
   "name": "Send the Users GET request and get Response",
   "keyword": "When "
 });
-formatter.step({
-  "line": 13,
-  "name": "Verify the Response Code for Get Request",
-  "keyword": "Then "
+formatter.match({
+  "location": "GetUsersClass.setBaseAPIURI()"
+});
+formatter.result({
+  "duration": 888300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -556,52 +537,71 @@ formatter.match({
   "location": "GetUsersClass.setGetRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 96700,
+  "duration": 94300,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 159600,
+  "duration": 380500,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.SendGetRequest()"
 });
 formatter.result({
-  "duration": 756540300,
+  "duration": 730609600,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "Verify all the users are retrieved in GET request",
+  "description": "",
+  "id": "verify-get-user-request-test-scenarios;verify-all-the-users-are-retrieved-in-get-request",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 11,
+      "name": "@Smoke"
+    }
+  ]
+});
+formatter.step({
+  "line": 13,
+  "name": "Verify the Response Code for Get Request",
+  "keyword": "Then "
 });
 formatter.match({
   "location": "GetUsersClass.VerifyUserResponseCode()"
 });
 formatter.result({
-  "duration": 339445000,
+  "duration": 216183400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 79300,
+  "duration": 65500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 67700,
+  "duration": 45000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 64200,
+  "duration": 36200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 290400,
+  "duration": 92200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 199500,
+  "duration": 53900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 193100,
+  "duration": 51700,
   "status": "passed"
 });
 formatter.background({
@@ -616,11 +616,69 @@ formatter.step({
   "name": "Set Base URL for Get User Request",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 5,
+  "name": "Set Get request EndPoint \"users\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "Set Headers for Get request",
+  "rows": [
+    {
+      "cells": [
+        "ContentType",
+        "AuthKey"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
+        "application/json",
+        "Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE"
+      ],
+      "line": 8
+    }
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Send the Users GET request and get Response",
+  "keyword": "When "
+});
 formatter.match({
   "location": "GetUsersClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 473800,
+  "duration": 767200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "users",
+      "offset": 26
+    }
+  ],
+  "location": "GetUsersClass.setGetRequestEndPoint(String)"
+});
+formatter.result({
+  "duration": 69400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GetUsersClass.setHeaders(DataTable)"
+});
+formatter.result({
+  "duration": 791900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GetUsersClass.SendGetRequest()"
+});
+formatter.result({
+  "duration": 671104800,
   "status": "passed"
 });
 formatter.scenario({
@@ -639,11 +697,59 @@ formatter.scenario({
 });
 formatter.step({
   "line": 17,
-  "name": "Set Get request EndPoint \"users\"",
+  "name": "Verify the count of Retrieved Users",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "GetUsersClass.VerifyUserCount()"
+});
+formatter.result({
+  "duration": 79254700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 73100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 54000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 38800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 85100,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 46800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 61300,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "Set Base URL for Get User Request",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 5,
+  "name": "Set Get request EndPoint \"users\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
   "name": "Set Headers for Get request",
   "rows": [
     {
@@ -651,27 +757,29 @@ formatter.step({
         "ContentType",
         "AuthKey"
       ],
-      "line": 19
+      "line": 7
     },
     {
       "cells": [
         "application/json",
         "Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE"
       ],
-      "line": 20
+      "line": 8
     }
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 21,
+  "line": 9,
   "name": "Send the Users GET request and get Response",
   "keyword": "When "
 });
-formatter.step({
-  "line": 22,
-  "name": "Verify the count of Retrieved Users",
-  "keyword": "Then "
+formatter.match({
+  "location": "GetUsersClass.setBaseAPIURI()"
+});
+formatter.result({
+  "duration": 758200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -683,40 +791,65 @@ formatter.match({
   "location": "GetUsersClass.setGetRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 88600,
+  "duration": 121800,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 111500,
+  "duration": 106100,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.SendGetRequest()"
 });
 formatter.result({
-  "duration": 662993400,
+  "duration": 697276900,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Verify Particular User ID exists",
+  "description": "",
+  "id": "verify-get-user-request-test-scenarios;verify-particular-user-id-exists",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 21,
+  "name": "Verify the User ID \"1847\" exists",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "GetUsersClass.VerifyUserCount()"
+  "arguments": [
+    {
+      "val": "1847",
+      "offset": 20
+    }
+  ],
+  "location": "GetUsersClass.VerifyUserID(String)"
 });
 formatter.result({
-  "duration": 69060900,
+  "duration": 90836400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 363900,
+  "duration": 61200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 56800,
+  "duration": 45700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 178000,
+  "duration": 47700,
   "status": "passed"
 });
 });

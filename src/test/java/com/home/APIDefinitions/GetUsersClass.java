@@ -40,7 +40,7 @@ public class GetUsersClass extends APIBase {
 		AuthKey = HeaderMap.get(0).get("AuthKey");	
 	}
 	
-	@Given("^Set Get request EndPoint \"([^\"]*)\"$")
+	@And("^Set Get request EndPoint \"([^\"]*)\"$")
 	public void setGetRequestEndPoint(String InputEndPoint) {
 		EndPoint = AO.SetEndPoint(InputEndPoint);
 	}
@@ -62,8 +62,13 @@ public class GetUsersClass extends APIBase {
 	
 	@Then("^Verify the count of Retrieved Users$")
 	public void VerifyUserCount() {
-		System.out.println("Response Text II is "+ body.asString());
 		response.then().assertThat().body("result.id",hasSize(20));
-		
 	}
+	
+	@Given("^Verify the User ID \"(.*)\" exists$")
+	public void VerifyUserID(String UserID) {
+		System.out.println("Response Text II is "+ body.asString());
+		response.then().assertThat().body("result.id",hasItem(UserID));
+	}
+
 }

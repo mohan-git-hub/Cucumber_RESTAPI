@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jun 22, 2020 12:19:45 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Jun 25, 2020 11:57:40 PM</span>
 				</a>
 			</li>
 			<li>
@@ -156,7 +156,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>5</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -171,7 +171,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>28</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>33</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -191,7 +191,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Create User Test Cases</span>
-						<span class='test-time'>Jun 22, 2020 12:19:45 PM</span>
+						<span class='test-time'>Jun 25, 2020 11:57:40 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -200,7 +200,7 @@
 		<span class='category label white-text'>@Regression</span>
 		<span class='category label white-text'>@End2End</span>
 	</div>
-	<span class='duration right label'>0h 0m 5s+394ms</span>
+	<span class='duration right label'>0h 0m 11s+712ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify whether User can create with all Parameters</span>
@@ -261,7 +261,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@Smoke</span>
 	</div>
-	<span class='duration right label'>0h 0m 0s+810ms</span>
+	<span class='duration right label'>0h 0m 0s+828ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify whether User can create with Mandatory Parameters</span>
@@ -322,7 +322,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@End2End</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+409ms</span>
+	<span class='duration right label'>0h 0m 1s+570ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify Validation Message on Duplicate User Creation</span>
@@ -386,7 +386,7 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='23'>
 					<div class='test-heading'>
 						<span class='test-name'>Verify Get User Request Test Scenarios</span>
-						<span class='test-time'>Jun 22, 2020 12:19:53 PM</span>
+						<span class='test-time'>Jun 25, 2020 11:57:54 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -394,7 +394,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@Smoke</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+124ms</span>
+	<span class='duration right label'>0h 0m 0s+987ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify all the users are retrieved in GET request</span>
@@ -408,11 +408,11 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='26' class='node given pass' status='pass'>
+		<li test-id='26' class='node and pass' status='pass'>
 			
-			<b>Given</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">Given Set Get request EndPoint "users"</span>
+			<span class="bdd-step-name">And Set Get request EndPoint "users"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -447,7 +447,7 @@
 	<div class='category-list'>
 		<span class='category label white-text'>@Regression</span>
 	</div>
-	<span class='duration right label'>0h 0m 0s+754ms</span>
+	<span class='duration right label'>0h 0m 0s+778ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">Verify the count of Users Fetched</span>
@@ -461,11 +461,11 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='32' class='node given pass' status='pass'>
+		<li test-id='32' class='node and pass' status='pass'>
 			
-			<b>Given</b>
+			<b>And</b>
 			
-			<span class="bdd-step-name">Given Set Get request EndPoint "users"</span>
+			<span class="bdd-step-name">And Set Get request EndPoint "users"</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -491,6 +491,59 @@
 			<b>Then</b>
 			
 			<span class="bdd-step-name">Then Verify the count of Retrieved Users</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='36' status='pass'>
+	<div class='category-list'>
+		<span class='category label white-text'>@Regression</span>
+	</div>
+	<span class='duration right label'>0h 0m 0s+813ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Verify Particular User ID exists</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='37' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given Set Base URL for Get User Request</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='38' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And Set Get request EndPoint "users"</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='39' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And Set Headers for Get request</span>
+				<div class='pre'><table><tr><td>ContentType</td><td>AuthKey</td></tr><tr><td>application/json</td><td>Bearer Dby4CWa-pT1JsyoGO2cxM4WjpKD7C2B5oChE</td></tr></table></div>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='40' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When Send the Users GET request and get Response</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='41' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given Verify the User ID "1847" exists</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -552,12 +605,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>2</span>
+							<span class='label pass'>3</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label green accent-4 white-text'>Passed: 3</span>
 							
 							
 						</div>
@@ -573,13 +626,18 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 22, 2020 12:19:45 PM</td>
+										<td>Jun 25, 2020 11:57:40 PM</td>
 										<td class='linked' test-id='2'>Create User Test Cases.Verify whether User can create with all Parameters</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Jun 22, 2020 12:19:54 PM</td>
+										<td>Jun 25, 2020 11:57:55 PM</td>
 										<td class='linked' test-id='30'>Verify Get User Request Test Scenarios.Verify the count of Users Fetched</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Jun 25, 2020 11:57:56 PM</td>
+										<td class='linked' test-id='36'>Verify Get User Request Test Scenarios.Verify Particular User ID exists</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -612,12 +670,12 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 22, 2020 12:19:45 PM</td>
+										<td>Jun 25, 2020 11:57:40 PM</td>
 										<td class='linked' test-id='2'>Create User Test Cases.Verify whether User can create with all Parameters</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Jun 22, 2020 12:19:51 PM</td>
+										<td>Jun 25, 2020 11:57:53 PM</td>
 										<td class='linked' test-id='16'>Create User Test Cases.Verify Validation Message on Duplicate User Creation</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -651,12 +709,12 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jun 22, 2020 12:19:51 PM</td>
+										<td>Jun 25, 2020 11:57:52 PM</td>
 										<td class='linked' test-id='9'>Create User Test Cases.Verify whether User can create with Mandatory Parameters</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Jun 22, 2020 12:19:53 PM</td>
+										<td>Jun 25, 2020 11:57:54 PM</td>
 										<td class='linked' test-id='24'>Verify Get User Request Test Scenarios.Verify all the users are retrieved in GET request</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
@@ -692,31 +750,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>5</div>
+					<div class='panel-lead'>6</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>28</div>
+					<div class='panel-lead'>33</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jun 22, 2020 12:19:45 PM</div>
+					<div class='panel-lead'>Jun 25, 2020 11:57:40 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jun 22, 2020 12:19:55 PM</div>
+			 		<div class='panel-lead'>Jun 25, 2020 11:57:57 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>9,754ms</div>
+					<div class='panel-lead'>17,253ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -761,7 +819,7 @@
 						</tr>
 						<tr>
 							<td>@Regression</td>
-							<td>2</td>
+							<td>3</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -816,7 +874,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 5,
+				passChild: 6,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -825,7 +883,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 28,
+				passGrandChild: 33,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
