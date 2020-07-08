@@ -7,15 +7,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 318800,
+  "duration": 442200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 434800,
+  "duration": 6015200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 347800,
+  "duration": 99800,
   "status": "passed"
 });
 formatter.background({
@@ -34,7 +34,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 175064900,
+  "duration": 148639500,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,14 +106,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 3018400,
+  "duration": 7235800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 1698300,
+  "duration": 1674600,
   "status": "passed"
 });
 formatter.match({
@@ -130,45 +130,45 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 921265600,
+  "duration": 905440500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 10397063800,
+  "duration": 10083344400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 3464700,
+  "duration": 1994300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 120700,
+  "duration": 99000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 100900,
+  "duration": 111000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 113500,
+  "duration": 149800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 386700,
+  "duration": 189700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 112800,
+  "duration": 161600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 311000,
+  "duration": 172100,
   "status": "passed"
 });
 formatter.background({
@@ -187,7 +187,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 720400,
+  "duration": 511300,
   "status": "passed"
 });
 formatter.scenario({
@@ -255,14 +255,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 157100,
+  "duration": 130600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 311500,
+  "duration": 128800,
   "status": "passed"
 });
 formatter.match({
@@ -279,45 +279,45 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 73527300,
+  "duration": 104191200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 714042600,
+  "duration": 7831070700,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyResponseCode()"
 });
 formatter.result({
-  "duration": 130100,
+  "duration": 71800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 183200,
+  "duration": 59100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 156200,
+  "duration": 50900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 190800,
+  "duration": 52300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 391500,
+  "duration": 88300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 205500,
+  "duration": 75600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 154400,
+  "duration": 58900,
   "status": "passed"
 });
 formatter.background({
@@ -336,7 +336,7 @@ formatter.match({
   "location": "CreateUserTestClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 984700,
+  "duration": 484200,
   "status": "passed"
 });
 formatter.scenario({
@@ -404,14 +404,14 @@ formatter.match({
   "location": "CreateUserTestClass.setPostRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 136200,
+  "duration": 85900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 151000,
+  "duration": 149900,
   "status": "passed"
 });
 formatter.match({
@@ -428,33 +428,33 @@ formatter.match({
   "location": "CreateUserTestClass.formPostRequestParams(String,String)"
 });
 formatter.result({
-  "duration": 63797000,
+  "duration": 97715000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.SendPostRequest()"
 });
 formatter.result({
-  "duration": 617081000,
+  "duration": 7730879400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateUserTestClass.verifyDuplicateUserValidtion()"
 });
 formatter.result({
-  "duration": 838950700,
+  "duration": 1724992100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 84000,
+  "duration": 54300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 69400,
+  "duration": 52900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 68500,
+  "duration": 49100,
   "status": "passed"
 });
 formatter.uri("GetUsers.feature");
@@ -466,15 +466,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 278500,
+  "duration": 211200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 166400,
+  "duration": 71700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 50300,
+  "duration": 274300,
   "status": "passed"
 });
 formatter.background({
@@ -524,7 +524,7 @@ formatter.match({
   "location": "GetUsersClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 888300,
+  "duration": 1083700,
   "status": "passed"
 });
 formatter.match({
@@ -537,21 +537,21 @@ formatter.match({
   "location": "GetUsersClass.setGetRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 94300,
+  "duration": 144300,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 380500,
+  "duration": 161800,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.SendGetRequest()"
 });
 formatter.result({
-  "duration": 730609600,
+  "duration": 4197270400,
   "status": "passed"
 });
 formatter.scenario({
@@ -577,31 +577,31 @@ formatter.match({
   "location": "GetUsersClass.VerifyUserResponseCode()"
 });
 formatter.result({
-  "duration": 216183400,
+  "duration": 579476500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 65500,
+  "duration": 198200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 45000,
+  "duration": 145200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 36200,
+  "duration": 119100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 92200,
+  "duration": 169800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 53900,
+  "duration": 117900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 51700,
+  "duration": 169600,
   "status": "passed"
 });
 formatter.background({
@@ -651,7 +651,7 @@ formatter.match({
   "location": "GetUsersClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 767200,
+  "duration": 1430800,
   "status": "passed"
 });
 formatter.match({
@@ -664,21 +664,21 @@ formatter.match({
   "location": "GetUsersClass.setGetRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 69400,
+  "duration": 82400,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 791900,
+  "duration": 103200,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.SendGetRequest()"
 });
 formatter.result({
-  "duration": 671104800,
+  "duration": 5419843800,
   "status": "passed"
 });
 formatter.scenario({
@@ -704,31 +704,31 @@ formatter.match({
   "location": "GetUsersClass.VerifyUserCount()"
 });
 formatter.result({
-  "duration": 79254700,
+  "duration": 78545900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 73100,
+  "duration": 118900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 54000,
+  "duration": 51700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38800,
+  "duration": 158500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 85100,
+  "duration": 95300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 46800,
+  "duration": 51800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 61300,
+  "duration": 57600,
   "status": "passed"
 });
 formatter.background({
@@ -778,7 +778,7 @@ formatter.match({
   "location": "GetUsersClass.setBaseAPIURI()"
 });
 formatter.result({
-  "duration": 758200,
+  "duration": 922500,
   "status": "passed"
 });
 formatter.match({
@@ -791,21 +791,21 @@ formatter.match({
   "location": "GetUsersClass.setGetRequestEndPoint(String)"
 });
 formatter.result({
-  "duration": 121800,
+  "duration": 142800,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.setHeaders(DataTable)"
 });
 formatter.result({
-  "duration": 106100,
+  "duration": 147500,
   "status": "passed"
 });
 formatter.match({
   "location": "GetUsersClass.SendGetRequest()"
 });
 formatter.result({
-  "duration": 697276900,
+  "duration": 13888342000,
   "status": "passed"
 });
 formatter.scenario({
@@ -824,32 +824,32 @@ formatter.scenario({
 });
 formatter.step({
   "line": 21,
-  "name": "Verify the User ID \"1847\" exists",
+  "name": "Verify the User ID \"1877\" exists",
   "keyword": "Given "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "1847",
+      "val": "1877",
       "offset": 20
     }
   ],
   "location": "GetUsersClass.VerifyUserID(String)"
 });
 formatter.result({
-  "duration": 90836400,
+  "duration": 55030800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 61200,
+  "duration": 184700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 45700,
+  "duration": 164500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 47700,
+  "duration": 127600,
   "status": "passed"
 });
 });
