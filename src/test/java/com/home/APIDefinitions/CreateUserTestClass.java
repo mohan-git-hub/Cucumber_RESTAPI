@@ -2,6 +2,8 @@ package com.home.APIDefinitions;
 
 import java.util.*;
 
+import javax.inject.Inject;
+
 import org.json.simple.JSONObject;
 
 import com.home.apimethods.APISupportMethods;
@@ -18,7 +20,6 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Assert;
 
-
 public class CreateUserTestClass extends APIBase {
 	
 	public String EndPoint, BaseURI, ContentType, AuthKey;
@@ -27,6 +28,9 @@ public class CreateUserTestClass extends APIBase {
 	RequestSpecification request;
 	Response response;
 	String ResponseText;
+
+	@Inject
+	PreConditions preconditions;
 		
 @Given("^Set Base URL for Post User Request$")
 public void setBaseAPIURI() {
@@ -63,6 +67,8 @@ public void formPostRequestParams(String TestCaseID, String TestSheet){
 @When("^Send the Post Request and get Response$")
 public void SendPostRequest() {
 	RestAssured.baseURI = BaseURI;
+	String ScenarioNum = this.preconditions.ScenarioName.split(":", 2)[2];
+	System.out.println("Scenario Num is "+ ScenarioNum);
 	System.out.println("Request Json is " + reqparams.toJSONString());
 	request = given().header("Content-Type",ContentType)
 									.header("Authorization",AuthKey)

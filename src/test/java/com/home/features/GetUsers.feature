@@ -9,13 +9,13 @@ And Set Headers for Get request
 When Send the Users GET request and get Response
 
 @Smoke
-Scenario: Verify all the users are retrieved in GET request
+Scenario: 200:1:Verify all the users are retrieved in GET request
 Then Verify the Response Code for Get Request
 
 @Regression
-Scenario: Verify the count of Users Fetched
+Scenario: 200:2:Verify the count of Users Fetched
 Then Verify the count of Retrieved Users
 
-@Regression
-Scenario: Verify Particular User ID exists
-Given Verify the User ID "1910" exists
+@Get-3-Regression
+Scenario: 200:3:Verify Particular User ID exists
+Given Verify the User ID "5390" exists

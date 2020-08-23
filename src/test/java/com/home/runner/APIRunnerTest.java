@@ -22,7 +22,7 @@ import cucumber.api.junit.Cucumber;
 		,monochrome = true
 		,strict = true
 		,format = {"pretty","html:test-output","json:cucumber_result/CreateUser.json"}
-		,tags= {"@Regression"}
+		,tags= {"@Get-3-Regression"}
 		,plugin= {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/RESTAPI_ExtentReports.html"}
 		)
 

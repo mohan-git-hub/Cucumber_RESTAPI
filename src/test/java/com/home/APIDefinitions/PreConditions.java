@@ -1,10 +1,13 @@
 package com.home.APIDefinitions;
 
+import cucumber.api.Scenario;
 import cucumber.api.java.*;
 import cucumber.api.java8.En;
 
+
 public class PreConditions {
 
+	public static String ScenarioName=null;
 	
 	@Before(order=-1)
 	public void RunBefore1() {
@@ -36,6 +39,12 @@ public class PreConditions {
 	@After(order = 1)
 	public void RunAfterScenario2() {
 		System.out.println("Scenario Ended after postive 1");
+	}
+	
+	@Before
+	public void getScenarioName(Scenario scenario) {
+		ScenarioName = scenario.getName();
+		System.out.println("Scenario Name " + ScenarioName);
 	}
 
 }

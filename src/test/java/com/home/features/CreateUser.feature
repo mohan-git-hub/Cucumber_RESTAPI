@@ -4,7 +4,7 @@ Background:
 Given Set Base URL for Post User Request
 
 @Regression @End2End
-Scenario: Verify whether User can create with all Parameters
+Scenario: 100:1:Verify whether User can create with all Parameters
 Given Set Post Request EndPoint "users"
 And Set Headers for post request
 | ContentType      | AuthKey  |
@@ -14,7 +14,7 @@ When Send the Post Request and get Response
 Then Verify whether the response is success
 
 @Smoke
-Scenario: Verify whether User can create with Mandatory Parameters
+Scenario: 100:2:Verify whether User can create with Mandatory Parameters
 Given Set Post Request EndPoint "users"
 And Set Headers for post request
 | ContentType      | AuthKey  |
@@ -24,7 +24,7 @@ When Send the Post Request and get Response
 Then Verify whether the response is success
 
 @End2End
-Scenario: Verify Validation Message on Duplicate User Creation
+Scenario: 100:3:Verify Validation Message on Duplicate User Creation
 Given Set Post Request EndPoint "users"
 And Set Headers for post request
 | ContentType      | AuthKey  |

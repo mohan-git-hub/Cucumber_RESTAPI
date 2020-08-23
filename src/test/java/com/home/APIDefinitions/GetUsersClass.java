@@ -49,7 +49,8 @@ public class GetUsersClass extends APIBase {
 	@When("^Send the Users GET request and get Response$")
 	public void SendGetRequest() {
 		RestAssured.baseURI = BaseURI;
-		
+		String ScenarioNum = PreConditions.ScenarioName.split(":", 2)[0];
+		System.out.println("Scenario Num is "+ ScenarioNum);
 		response = given().when().header("Content-Type",ContentType)
 				.header("Authorization",AuthKey).get(EndPoint);
 		body = response.getBody();
